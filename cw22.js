@@ -1,3 +1,6 @@
-function greet(name){
-    return `Hello, ${name} how are you doing today?`;
-  }
+function isDigit(s) {
+    console.log(Number(s) && Number(s) != 'NaN'  ? true: false);
+   }
+
+   isDigit(s2532);
+

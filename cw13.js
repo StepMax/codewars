@@ -1,9 +1,5 @@
+function isDigit(s) {
+    console.log(Number(s) && Number(s) != 'NaN'  ? true: false);
+   }
 
-function getDivisorsCnt(n){
-    let x = 0;
-      for (let i = 1; i <= n; i++) {
-       console.log(x += i);
-      }
-    }
-
-  getDivisorsCnt(10);
+   isDigit('-23.14');
